@@ -15,7 +15,8 @@ func main() {
 		"green": "#4bf745",
 		"white": "#ffffff",
 	}
-
+	// colors["red"]="#test" //
+	// colors["blue"]="test"
 	printMap(colors)
 
 	colors.printMaps()
