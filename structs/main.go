@@ -23,7 +23,13 @@ func main() {
 		},
 	}
 	kisiler.ekranaYaz()
+	fmt.Println("")
+	kisiler.adDegistir("Mehmet Ş.")
+	kisiler.ekranaYaz()
 	kisilerPointer := &kisiler
+	//kisilerPointer.ad ="Mehmet Ş."
+	//fmt.Println("")
+	//kisiler.ekranaYaz()
 	kisilerPointer.adDegistir("Mehmet Şükrü")
 	fmt.Println("")
 	kisiler.ekranaYaz()
