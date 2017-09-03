@@ -18,11 +18,14 @@ func main() {
 }
 
 func printGreeting(b bot){
+	defer fmt.Println("Test") //Fonksiyondan çıkarken çalışacak.
 	fmt.Println(b.getGreeting())
+
 }
 
 func (englishBot) getGreeting() string {
 	//very customlogic for generating an English greeting
+
 	return "Hi, There"
 }
 
